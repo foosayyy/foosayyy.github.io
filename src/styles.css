@@ -196,3 +196,9 @@ form button {
         margin-top: 5px;
     }
 }
+/*thank you page*/
+.thankyoupage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
