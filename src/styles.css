@@ -195,6 +195,9 @@ form button {
         width: 100%;
         margin-top: 5px;
     }
+    .contact-footer {
+        display: none;
+    }
 }
 /*thank you page*/
 .thankyoupage {
@@ -203,3 +206,4 @@ form button {
     justify-content: center;
 }
 
+/*WORK*/
