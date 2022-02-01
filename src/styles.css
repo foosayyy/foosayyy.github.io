@@ -207,4 +207,266 @@ form button {
 }
 
 /*WORK*/
+.sub-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
 
+
+
+.card-body {
+    width:100vw;
+    /* height: 100vh; */
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-around;
+    /* overflow: hidden; */
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: "image" "text" "stats";
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bolder;
+    border-radius: 18px;
+    background: white;
+    box-shadow: 5px 5px 15px #D6DE33;
+    text-align: center;
+    color: black;
+    transition: 0.5s ease;
+    cursor: pointer;
+    margin:30px;
+}
+.card2 {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: "image" "text" "stats";
+
+    font-family: 'Josefin Sans', sans-serif;
+    border-radius: 18px;
+    font-weight: bolder;
+    background: white;
+    box-shadow: 5px 5px 15px #00A098;
+    text-align: center;
+    color: black;
+    transition: 0.5s ease;
+    cursor: pointer;
+    margin:30px;
+}
+.card3 {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: "image" "text" "stats";
+
+    font-family: 'Josefin Sans', sans-serif;
+    border-radius: 18px;
+    font-weight: bolder;
+    background: white;
+    box-shadow: 5px 5px 15px #1299D8;
+    text-align: center;
+    color: black;
+    transition: 0.5s ease;
+    cursor: pointer;
+    margin:30px;
+}
+.card4 {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: "image" "text" "stats";
+
+    font-family: 'Josefin Sans', sans-serif;
+    border-radius: 18px;
+    font-weight: bolder;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(250, 91, 197, 0.9);
+    text-align: center;
+    color: black;
+    transition: 0.5s ease;
+    cursor: pointer;
+    margin:30px;
+}
+.card-image {
+    grid-area: image;
+    background: url("/src/images/Email.png");
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-size: cover;
+}
+.card-image2 {
+    grid-area: image;
+    background: url("/src/images/RecommendationSystem.png");
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-size: cover;
+}
+.card-image3 {
+    grid-area: image;
+    background: url("/src/images/SmartChatbot.png");
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-size: cover;
+}
+.card-image4 {
+    grid-area: image;
+    background: url("/src/images/WeatherForecast.png");
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-size: cover;
+}
+.card-text {
+    grid-area: text;
+    margin: 25px;
+}
+.card-text .date {
+    color: rgb(255, 7, 110);
+    font-size:13px;
+}
+.card-text p {
+    color: black;
+    font-size:15px;
+}
+.card-text p.recommender {
+    color: black;
+    font-size:14px;
+}
+.card-text h2 {
+    margin-top:0px;
+    font-size:28px;
+}
+.card-text .email{
+    margin-top:0px;
+    font-size:22px;
+}
+.card-text .recommender{
+    margin-top:0px;
+    font-size:25px;
+}
+.card-stats {
+    grid-area: stats; 
+    display: flex;
+    flex-direction: row-reverse;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: #D6DE33;
+}
+.card-stats2 {
+    grid-area: stats; 
+    display: flex;
+    flex-direction: row-reverse;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: #00A098;
+}
+.card-stats3 {
+    grid-area: stats; 
+    display: flex;
+    flex-direction: row-reverse;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: #1299D8;
+}
+.card-stats4 {
+    grid-area: stats; 
+    display: flex;
+    flex-direction: row-reverse;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: rgba(250, 91, 197, 0.9);
+}
+.card-stats .border {
+    border-left: 1px solid rgb(20, 20, 20);
+    border-right: 1px solid rgb(20, 20, 20);
+}
+.card-stats .value sup {
+    font-size: 12px;
+}
+.card-stats .stat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    padding:10px;
+}
+.card-stats2 .border {
+    border-left: 1px solid rgb(20, 20, 20);
+    border-right: 1px solid rgb(20, 20, 20);
+}
+.card-stats2 .value sup {
+    font-size: 12px;
+}
+.card-stats2 .stat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    padding:10px;
+}
+.card-stats3 .border {
+    border-left: 1px solid rgb(20, 20, 20);
+    border-right: 1px solid rgb(20, 20, 20);
+}
+.card-stats3 .value sup {
+    font-size: 12px;
+}
+.card-stats3 .stat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    padding:10px;
+}
+.card-stats4 .border {
+    border-left: 1px solid rgb(20, 20, 20);
+    border-right: 1px solid rgb(20, 20, 20);
+}
+.card-stats4 .value sup {
+    font-size: 12px;
+}
+.card-stats4 .stat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    padding:10px;
+}
+.card:hover {
+    transform: scale(1.2);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+.card2:hover {
+    transform: scale(1.2);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+.card3:hover {
+    transform: scale(1.2);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+.card4:hover {
+    transform: scale(1.2);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+@media only screen and (max-width: 600px) {
+
+
+
+}
